@@ -1,0 +1,21 @@
+Calculation of means: mean
+=media aritmetica
+Variances: var
+	v^2=1/n*sum(1,n)(Xi-X_)^2
+
+sample:
+s^2=1/n-1*sum(1,n)(Xi-X_)^2 ==MATLAB var(x)
+
+v,s standard deviation = std
+
+CONFIDENCE INTERVALS:
+X= measures a characteristic of a poppulation 
+pdf of X by f(x,theta)
+theta = unknown param
+
+sample of size n X1, X2,...Xn independent & identically distributed
+
+mean(theta)= mean(theta)(X1, X2,...Xn)-- point estimate
+interval estimate we find 2 values mean(theta)L, mean(theta)u s.t.
+
+W depends on the selection data on theta
